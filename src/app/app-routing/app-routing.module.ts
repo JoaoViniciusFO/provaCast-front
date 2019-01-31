@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { ListagemContasComponent } from 'app/listagem-contas/listagem-contas.component';
 import { FormularioContasComponent } from 'app/formulario-contas/formulario-contas.component';

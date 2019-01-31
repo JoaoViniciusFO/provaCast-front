@@ -1,3 +1,14 @@
-<p>
-  listagem-contas works!
-</p>
+<table>
+  <tr>
+    <th>Agência</th>
+    <th>Conta</th>
+    <th>Instituição Bancária</th>
+    <th>Saldo</th>
+  </tr>
+  <tr *ngFor="let conta of listaConta" (click)="editConta(conta)">
+    <td>conta.agencia</td>
+    <td>conta.contaNum</td>
+    <td>conta.instituicaoBancariaNome</td>
+    <td>conta.saldo</td>
+  </tr>
+</table>

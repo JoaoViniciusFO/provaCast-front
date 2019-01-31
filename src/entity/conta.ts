@@ -3,7 +3,7 @@ export class Conta {
 	
 	private contaNum: string;
 	
-	private instituicaoBancariaId: string;
+	private saldo: number;
 	
     private usuarioId: string;
     
