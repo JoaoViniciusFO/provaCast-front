@@ -3,8 +3,8 @@ export class Conta {
 	
 	private contaNum: string;
 	
-	private saldo: number;
-	
+    private saldo: number;
+    
     private usuarioId: string;
     
     constructor(){
